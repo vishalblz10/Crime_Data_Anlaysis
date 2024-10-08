@@ -2,8 +2,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-# Load the cleaned dataset
 from clean_data import data_clean
 
 # Convert 'DATE OCC' to datetime

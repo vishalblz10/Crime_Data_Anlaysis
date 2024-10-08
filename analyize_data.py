@@ -1,7 +1,5 @@
 # Import necessary libraries
 import pandas as pd
-
-# Load the cleaned dataset
 from clean_data import data_clean
 
 # Calculate crime rate change from 2020 to 2023

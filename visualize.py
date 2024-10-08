@@ -2,8 +2,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-# Load the analysis results
 from clean_data import data_clean
 
 crime_rate_change = data_clean[data_clean['year'].between(2020, 2023)].groupby('year').size().reset_index(name='total_crimes')

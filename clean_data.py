@@ -1,7 +1,5 @@
 # Import necessary libraries
 import pandas as pd
-
-# Load the dataset
 from read_data import data
 
 # Check for missing values
